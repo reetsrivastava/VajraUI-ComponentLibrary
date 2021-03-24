@@ -17,6 +17,7 @@
 body {
     font-family: 'Open Sans','Helvetica' sans-serif;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 
@@ -58,6 +59,9 @@ a,button {
     font-family: 'Syne Mono', monospace;
 }
 
+.intro p {
+    font-family: 'Montserrat';
+}
 
 
 /* Docs Page Styling */
@@ -91,8 +95,13 @@ a,button {
     display: flex;
     flex: 1 0 auto;
     justify-content: center;
+    align-items: center;
     border-radius: 5px;
     margin: 20px auto;
+}
+
+.responsive-iframe > button {
+    opacity: 0.7;
 }
 
 
@@ -137,7 +146,7 @@ a,button {
     bottom: 10px;
     background-color: #ff0000;
     box-shadow: 0 0 10px #ff0000;
-    z-index: 1;
+    z-index: 2;
 }
 
 /* footer styling */
@@ -173,7 +182,6 @@ footer > div {
         flex-direction: row;
     }
 
-   
 }
 
 @media(min-width:900px) {
@@ -214,5 +222,15 @@ nav {
 main {
     grid-area: c;
 }
+}
+
+@media(max-width:900px) {
+    .nav-aside {
+        position: fixed;
+        top: 70px;
+        width: 80vw;
+        z-index: 1;
+        margin: auto;
+    }
 }
 
