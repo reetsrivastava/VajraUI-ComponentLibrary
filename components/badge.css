@@ -1,0 +1,33 @@
+.badge-rd-sm {
+    color: white;
+    background: #d4312d;
+    padding: 2px 4px;
+    border-radius: 50%;
+    line-height: 20px;
+    position: relative;
+    top: -40px;
+    left: -15px;
+    font-family: 'Montserrat';
+}
+
+.badge-rd-outline {
+    color: #d4312d;
+    border: 2px solid #d4312d;
+    padding: 2px 4px;
+    border-radius: 50%;
+    line-height: 20px;
+    position: relative;
+    top: -10px;
+    left: -20px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.badge-rect {
+    color: white;
+    width: fit-content;
+    padding: 2px 4px;
+    line-height: 20px;
+    font-family: 'Montserrat';
+    background: #0F5298;
+}

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/811e573376.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>VAJRA UI</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header-nav">
+
+                <a href="#" class="logo"><img src="images/logo-Vajra.png" alt="" class="avatar"><strong>VAJRA UI</strong></a>
+                
+                <!-- <span class="links" id="link-desktop">
+                    <a href="docs.html" class="tab-active">Documentation</a>
+                    <a href="https://github.com/reetsrivastava" class="btn-bg-white">Connect on Github</a>
+                </span> -->
+                <!-- <span class="bar-mobile" id="bar-mobile">
+                    <i class="fas fa-bars" id="hamburger"></i>
+                    <div class="nav-toast" id="nav-toast">
+                        <div>
+                        <i class="fas fa-times" id="cancel-btn"></i>
+                        <span>
+                        <a href="https://github.com/reetsrivastava" class="btn-link-secondary">Connect on Github</a>
+                        </span>
+                        </div>
+                    </div>
+                </span> -->
+                    <a href="https://github.com/reetsrivastava" class="btn-bg-white">Connect on Github</a>
+        </header>
+
+        <button class="btn-primary" id="toggle-btn">Components</button>
+
+        <nav class="nav-aside">
+            <div class="aside-div">
+                <h3>Components</h3>
+                <a href="#alert" class="nav-aside-link">Alert</a>
+                <a href="#avatar" class="nav-aside-link">Avatar</a>
+                <a href="#badge" class="nav-aside-link">Badge</a>
+                <a href="#banner" class="nav-aside-link">Banner</a>
+                <a href="#button" class="nav-aside-link">Button</a>
+                <a href="#cards" class="nav-aside-link">Card</a>
+                <a href="#tabs" class="nav-aside-link">Tabs</a>
+                <a href="#card-list" class="nav-aside-link">Card List</a>
+            </div>
+        </nav>
+
+        <main class="content">
+            <div class="intro">
+                <h2>Getting Started</h2>
+                <p>To start via CDN copy the below link in your html file : </p>
+                
+            </div>
+            <div class="component">
+                <section id="alert">
+                    <h2>Alert Component</h2>
+
+                    <div class="alert-items">
+                    <div class="alert alert-success">
+                        <span><strong>Congrats!</strong> 🎉 You have won a lottery worth 5,00,000</span>
+                        <a data-dismiss="alert" aria-label="Close">
+                            <i class="fas fa-times"></i>
+                        </a>
+                    </div>
+            
+                    <div class="alert alert-warning">
+                        <span><strong>ALert! </strong>⚠️ You are avoiding the Payload Email </span>
+                        <a data-dismiss="alert" aria-label="Close">
+                            <i class="fas fa-times"></i>
+                        </a>
+                    </div>
+            
+                    <div class="alert alert-danger">
+                        <span><strong>Cyber Attack! </strong>☠️ Your Computer has detected Malware </span>
+                        <a data-dismiss="alert" aria-label="Close">
+                            <i class="fas fa-times"></i>
+                        </a>
+                    </div>
+                    </div>
+                    <div class="responsive-iframe">
+                        <button class="btn-secondary">Code Snippet</button>
+                    <iframe
+                    src="https://carbon.now.sh/embed/Kzo4MoWOdItcvnEvMst4"
+                    style="width: 70%; height: 60vh; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                    </div>
+                </section>
+            
+            
+                <section id="avatar">
+                    <h2>Avatar Component</h2>
+                    <div class="avatar-items">
+                    <img src="http://placehold.it/70x70" alt="" class="avatar-big">
+                    <img src="http://placehold.it/50x50" alt="" class="avatar">
+                    <img src="http://placehold.it/30x30" alt="" class="avatar-small">
+                    <!-- Avatar Big -->
+                    <img src="images/my-img.jfif" alt="" class="avatar-small">
+
+                    <!-- Avatar Medium -->
+                    <img src="images/my-img.jfif" alt="" class="avatar">
+
+                    <!-- Avatar Small -->
+                    <img src="images/my-img.jfif" alt="" class="avatar-big">
+                    </div>
+
+                    <div class="responsive-iframe">
+                        <button class="btn-secondary">Code Snippet</button>
+                        
+                        <iframe
+                        src="https://carbon.now.sh/embed/FYpn85MK8iok1vjK4n5D"
+                        style="width: 70%; height: 60vh; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </section>
+            
+                <section id="button">
+                    <h2>Button Component</h2>
+                    <div class="button-items">
+                    <button class="btn-primary">Primary Button</button>
+                    <button class="btn-secondary">Secondary Button</button>
+                    <a href="#" class="btn-link-light">Clear All</a>
+                    <a href="#" class="btn-link-primary">Primary Link</a>
+                    <a href="#" class="btn-link-secondary">Secondary Link</a>
+                    <a href="#" class="btn-bg-white">Bg White</a>
+                    </div>
+
+                    <div class="responsive-iframe">
+                        <button class="btn-secondary">Code SNippet</button>
+                        <iframe
+                        src="https://carbon.now.sh/embed/zahCJCPc7GS734lM78XC"
+                        style="width: 70%; height: 60vh; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+
+                    
+                </section>
+            
+                <section id="cards">
+                    <h2>Card Component</h2>
+                    <div class="card-items">
+                    <div class="card">
+                        <span class="card-category">TeamTanay</span>
+                        <div class="card-description">
+                            <h3>NEOGCAMP</h3>
+                            <p>Get Started with your first Job as a Developer</p>
+                        </div>
+                        <img src="images/tanay-img.jpeg" alt="" class="avatar-small card-img">
+                    </div>
+            
+                    <div class="card-vertical">
+                        <img src="https://unsplash.it/300/250?image=0" alt="" class="img-responsive">
+                        <div class="vertical-card-desc">
+                            <h3>NEOGCAMP</h3>
+                            <p>Get Started with your first Job as a Developer</p>         
+                        </div> 
+                        <img src="images/tanay-img.jpeg" alt="" class="avatar vertical-card-img">
+                    </div>
+            
+                    <div class="card-horizontal">
+                        <img src="https://unsplash.it/300/250?image=0" alt="" class="img-responsive horizontal-card-img">
+                        <div class="horizontal-card-desc">
+                            <h3>NEOGCAMP</h3>
+                            <p>Get Started with your first Job as a Developer.
+                                Welcome to the 16-week course of levelOne. Even if you're not part of neogcamp you can still use this as a signpost to learn individual items listed.
+                            </p>         
+                        </div> 
+                    </div>
+                    </div>
+
+                    <div class="responsive-iframe">
+                        <button class="btn-secondary">Code Snippet</button>
+                        <iframe
+                        src="https://carbon.now.sh/embed/MP94zc2sLnxcReTng58n"
+                        style="width: 70%; height: 60vh; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </section>
+            
+                <!-- <section id="badge">
+                    <h2>Badge Component</h2>
+                    <div>
+                        <img src="images/my-img.jfif" alt="" class="avatar-big">
+                        <span class="badge-rd-sm">4</span>
+                    </div>
+                    <div>
+                        <img src="http://placehold.it/70x70" alt="" class="avatar-big">
+                        <span class="badge-rd-outline">4</span>
+                    </div>
+            
+                    <div>
+                        <span class="badge-rect">Discount</span>
+                    </div>
+                </section> -->
+            
+                <section id="banner">
+                    <h2>Banner Component</h2>
+                    <div class="banner">
+                        <div class="banner-content">
+                            <h1>VAJRA</h1>
+                            <p>One Click Solution to your UI Components</p>
+                            <button class="btn-primary">Start Now</button>
+                        </div>
+                    </div>
+
+                    <div class="responsive-iframe">
+                        <button class="btn-secondary">Code Snippet</button>
+                        <iframe
+                        src="https://carbon.now.sh/embed/rH7dXJ0pWDB5HVl2aAiB"
+                        style="width: 70%; height: 60vh; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </section>
+            
+                <section id="tabs">
+                    <h2>Tab Component</h2>
+                    <div class="tab-items">
+                    <div class="tabs">
+                        <div class="tabs-item active">
+                            <h3>737</h3>
+                            <p>Members</p>
+                        </div>
+                        <div class="tabs-item">
+                            <h3>430</h3>
+                            <p>Online</p>
+                        </div>
+                        <div class="tabs-item">
+                            <h3>329</h3>
+                            <p>Dormant</p>
+                        </div>
+                        <div class="tabs-item">
+                            <h3>76</h3>
+                            <p>Inactive</p>
+                        </div>
+                    </div>
+            
+                    <!-- <ul class="list-inline tabs-underlined">
+                        <li>
+                          <a href="#" class="tab-underlined active">Bookings</a>
+                        </li>
+                        <li>
+                          <a href="#" class="tab-underlined">Requests</a>
+                        </li>
+                        <li>
+                          <a href="#" class="tab-underlined">Conversations</a>
+                        </li>
+                      </ul> -->
+
+                      <div class="responsive-iframe">
+                          <button class="btn-secondary">Code Snippet</button>
+
+                          <iframe
+                            src="https://carbon.now.sh/embed/66ECYxM8Hgz1KO0eDqt6"
+                            style="width: 70%; height: 60vh; border:0; transform: scale(1); overflow:hidden;"
+                            sandbox="allow-scripts allow-same-origin">
+                            </iframe>
+                      </div>
+                    </div>          
+                </section>
+            
+                <section id="card-list">
+                    <h2>Card List Component</h2>
+                    <div class="product-list">
+                        <div class="product">
+                            <div class="product-upvote">
+                                <i class="fas fa-caret-up"></i>
+                                89
+                            </div>
+                            <img src="https://unsplash.it/150/100?image=0" alt="" class="product-img img-border-rd">
+                            <div class="product-description">
+                                <h3>Lenovo I5</h3>
+                                <p>Coolest Laptop</p>
+                            </div>
+                            <span class="icon-controls">
+                                <a href="#" class="side-link"><i class="fas fa-heart"></i></a>
+                                <a href="#" class="side-link"><i class="fas fa-share"></i></a>
+                                <a href="#" class="side-link"><i class="fas fa-star"></i></a>
+                            </span>
+                        </div>
+                        <div class="product">
+                            <div class="product-upvote">
+                                <i class="fas fa-caret-up"></i>
+                                99
+                            </div>
+                            <img src="https://unsplash.it/150/100?image=1" alt="" class="product-img img-border-rd">
+                            <div class="product-description">
+                                <h3>Apple MAC</h3>
+                                <p>Mac Laptop</p>
+                            </div>
+                            <span class="icon-controls">
+                                <a href="#" class="side-link"><i class="fas fa-heart"></i></a>
+                                <a href="#" class="side-link"><i class="fas fa-share"></i></a>
+                                <a href="#" class="side-link"><i class="fas fa-star"></i></a>
+                            </span>
+                        </div>
+                        <div class="product">
+                            <div class="product-upvote">
+                                <i class="fas fa-caret-up"></i>
+                                89
+                            </div>
+                            <img src="https://unsplash.it/150/100?image=2" alt="" class="product-img img-border-rd">
+                            <div class="product-description">
+                                <h3>HP PRO</h3>
+                                <p>Professional Laptop</p>
+                            </div>
+                            <span class="icon-controls">
+                                <a href="#" class="side-link"><i class="fas fa-heart"></i></a>
+                                <a href="#" class="side-link"><i class="fas fa-share"></i></a>
+                                <a href="#" class="side-link"><i class="fas fa-star"></i></a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="responsive-iframe">
+                        <button class="btn-secondary">Code Snippet</button>
+
+                        <iframe
+                        src="https://carbon.now.sh/embed/MgntZen2HgQrHs6W2nMm"
+                        style="width: 70%; height: 60vh; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                        </iframe>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div>
+            <span class="footer-text">Made with 🖤 by <a href="portfoliors.netlify.app" class="portfolio-link">ReetSrivatava</a></span>
+            <span class="social-links">
+                <a href="https://www.linkedin.com/in/reet-srivastava-76336a19b/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://twitter.com/hellreet46"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/reetsrivastava"><i class="fab fa-github"></i></i></a>
+            </span>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
