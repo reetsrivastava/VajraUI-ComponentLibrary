@@ -143,7 +143,7 @@ a,button {
 
 #toggle-btn {
     position: fixed;
-    bottom: 10px;
+    bottom: 30px;
     background-color: #ff0000;
     box-shadow: 0 0 10px #ff0000;
     z-index: 2;
