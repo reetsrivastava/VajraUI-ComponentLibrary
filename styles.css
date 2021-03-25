@@ -129,7 +129,7 @@ a,button {
 
 .aside-div a:hover {
     color: #d4312d;
-    font-size: 20px;
+    
 }
 
 /* Toggle Class for nav */
@@ -228,7 +228,7 @@ main {
     .nav-aside {
         position: fixed;
         top: 70px;
-        width: 80vw;
+        width: 100%;
         z-index: 1;
         margin: auto;
     }
