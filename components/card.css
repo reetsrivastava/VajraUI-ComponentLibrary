@@ -66,10 +66,49 @@
     height: inherit;
 }
 
+.product-card {
+    max-width: 300px;
+    width: 90%;
+    min-width: 200px;
+    box-shadow: 0 0 5px #808080;
+    padding: 8px;
+    position: relative;
+}
+
+.product-card:hover {
+    background: #ffcccb;
+    box-shadow: 0 0 10px #808080;
+}
+
+.img-span > i{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #808080;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 35px;
+}
+
+.badges-span {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-card-desc {
+    width: 100%;
+}
+.product-card button  {
+    width:100%;
+}
+
+
+
 @media(max-width:500px) {
     .card-horizontal {
         font-size: 10px;
     }
+
 }
 
 @media(max-width:400px) {
