@@ -1,0 +1,83 @@
+.btn-link-light {
+    color: #808080;
+    border: 1px solid #808080;
+    border-radius: 50px;
+    padding: 10px 15px;
+    font-weight: lighter;
+    opacity: 0.6;
+    display: inline-block;
+}
+
+.btn-link-light:hover {
+    opacity:1;
+}
+
+.btn-link-primary {
+    color: #d4312d;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-weight: bolder;
+    background-color: white;
+    border: 2px solid #d4312d;
+    opacity: 0.8;
+    display: inline-block;
+}
+
+.btn-link-primary:hover {
+    opacity: 1;
+}
+
+.btn-link-secondary {
+    color: #0F5298;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-weight: bolder;
+    background-color: white;
+    border: 2px solid #0F5298;
+    opacity: 0.8;
+    display: inline-block;
+}
+
+.btn-link-secondary:hover {
+    opacity: 1;
+}
+
+.btn-primary {
+    color: white;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-weight: bolder;
+    background-color: #d4312d;
+    border: none;
+    display: inline-block;
+}
+
+.btn-primary:hover {
+    background-color: #FF0000;
+}
+
+.btn-secondary {
+    color: white;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-weight: bolder;
+    background-color: #0F5298;
+    border: none;
+    display: inline-block;
+}
+
+.btn-secondary:hover {
+    background-color: #2565AE;
+}
+
+.btn-bg-white {
+    color: #d4312d;
+    border-radius: 2px;
+    padding: 8px 11px;
+    font-weight: bolder;
+    background-color: white;
+    box-shadow: 0 0 5px #d4312d;
+    opacity: 0.8;
+    display: inline-block;
+}
+

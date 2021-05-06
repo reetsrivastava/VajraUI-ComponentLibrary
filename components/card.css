@@ -1,0 +1,123 @@
+.card {
+    height: 250px;
+    width: 300px;
+    color: white;
+    background: linear-gradient(135deg,
+                    rgba(0,0,0,0.8) 0%,
+                    rgba(0,0,0,0.3) 50%),
+                    url("https://unsplash.it/300/250?image=0");
+    background-size: cover;
+    position: relative;
+}
+
+.card-category {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.card-description {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.card-img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.card-vertical {
+    height: fit-content;
+    width: 300px;
+    position: relative;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px #808080;
+}
+
+.vertical-card-img {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+.vertical-card-desc {
+   width: 70%;
+}
+
+.card-horizontal {
+    height: 200px;
+    width: 600px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #808080;
+    display: flex;
+    align-items: center;
+}
+
+.horizontal-card-desc {
+    padding: 10px;
+    font-family: 'Montserrat';
+}
+
+.horizontal-card-img {
+    height: inherit;
+}
+
+.product-card {
+    max-width: 300px;
+    width: 90%;
+    min-width: 200px;
+    box-shadow: 0 0 5px #808080;
+    padding: 8px;
+    position: relative;
+}
+
+.product-card:hover {
+    background: #ffcccb;
+    box-shadow: 0 0 10px #808080;
+}
+
+.img-span > i{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #808080;
+    background-color: white;
+    border-radius: 50%;
+    font-size: 35px;
+}
+
+.badges-span {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-card-desc {
+    width: 100%;
+}
+.product-card button  {
+    width:100%;
+}
+
+
+
+@media(max-width:500px) {
+    .card-horizontal {
+        font-size: 10px;
+    }
+
+}
+
+@media(max-width:400px) {
+    .card {
+        width: 250px;
+    }
+
+    .card-horizontal {
+        flex-direction: column;
+        height: fit-content;
+    }
+}
